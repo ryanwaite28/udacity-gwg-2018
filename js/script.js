@@ -37,6 +37,28 @@ $(document).ready(function(){
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1205,
+				settings: {
+					arrows: true,
+					centerMode: true,
+					// centerPadding: '50px',
+					slidesToShow: 2,
+          slidesToScroll: 1
+				}
+      },
+      {
+        breakpoint: 825,
+				settings: {
+					arrows: true,
+					centerMode: true,
+					// centerPadding: '50px',
+					slidesToShow: 1,
+          slidesToScroll: 1
+				}
+      }
+    ]
   });
 
 });
